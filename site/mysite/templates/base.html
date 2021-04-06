@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+	<link rel="stylesheet" type="text/css" href="{% static 'style/style.css' %}">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap" rel="stylesheet">
+	<script src="{% static 'js/throbber.js' %}"></script>
+	<title>
+		Anime Face Recognition - Alexander Staszewski
+	</title>
+</head>
+
+<body>
+	<header>
+		{% include 'navbar.html' %}
+	</header>
+	<div class="content">
+		<div class="center">
+			{% block content %}
+			{% endblock %}
+		</div>
+	</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,152 @@
+/*
+index
+- Links
+- Header
+- Navigation Bar
+- Content
+*/
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	background-color: #1a1a1a;
+	font-family: Arial;
+	color:white;
+}
+
+*:focus {
+	outline: none;
+}
+
+/*Links*/
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+
+/*Header*/
+
+header {
+	text-align: center;
+}
+
+img {
+	width: auto;
+    max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Navigation Bar*/
+header nav ul {
+	background-color: #1f1f1f;
+	font-family: 'Assistant', sans-serif;
+	font-size: 0.95rem;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	border-bottom: 1px solid #1f1f1f;
+}
+
+header nav li a,
+header nav li a:visited {
+	text-decoration: none;
+	color: white;
+	padding: 1.5rem 1.5rem;
+	transition: 0.3s;
+
+}
+
+header nav li {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	transition: 0.3s;
+	border-bottom: 2px solid white;
+	margin-right: 1.5%;
+
+}
+
+header nav li.active,
+header nav li:hover:not(.active) {
+	background-color: white;
+	
+}
+
+header nav li.active a,
+header nav li a:hover {
+	color: black;
+}
+
+/*Content*/
+
+.content {
+  display: table;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0%;
+  width: 80%;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 0 0 25px 25px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+#outputimg {
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#id_file {
+	background-color: white;
+	color: black;
+}
+
+ul {
+    list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+	
+}
+
+#throbber {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+

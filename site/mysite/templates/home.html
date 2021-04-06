@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<h1>Touhou Character Identifier</h1>
+	<p>This project aims to identify a handful of characters from Touhou 06 using a machine learning and deep learning approach.</p>
+	<p>To see which characters are present in an image upload a file below (or drag and drop into the box) and click the "Detect Faces" button. If you wish to use this without classifying characters then it is possible to enable the "Ignore character identification" checkbox to disable this feature.</p>
+	<p>The characters supported by this project are:</p>
+	<ul>
+		<li>Reimu Hakurei</li>
+		<li>Marisa Kirisame</li>
+		<li>Remilia Scarlet</li>
+		<li>Flandre Scarlet</li>
+		<li>Sakuya Izayoi</li>
+	</ul>
+	
+	<form id="uploadForm" method="post" enctype="multipart/form-data" onsubmit="enableThrobber();">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit">Detect Faces</button>
+	</form>
+
+	<img id="throbber" src="{% static 'images/throbber.gif' %}" alt="throbber">
+{% endblock %}
+
+

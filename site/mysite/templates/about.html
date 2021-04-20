@@ -1,7 +1,10 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 	<h1>About Me</h1>
-	<p>Lorem Ipsum</p>
+	<p>I'm Alexander and I created this web app because I was interested in making an anime-related machine learning project. I chose the Touhou series for this project as it is one of the most popular franchises in the anime community and already has a large selection of fan art that I could use for testing.</p>
+	<p>This web app is part of my final year project for my undergraduate course in Computer Science.</p>
+	<img class="aboutImg" src="{% static 'images/picture.png' %}" alt="A picture of myself">
 {% endblock %}
 

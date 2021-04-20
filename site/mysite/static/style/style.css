@@ -53,6 +53,10 @@ img {
 	margin-right: auto;
 }
 
+.aboutImg {
+	width: 250px;
+}
+
 /*Navigation Bar*/
 header nav ul {
 	background-color: #1f1f1f;

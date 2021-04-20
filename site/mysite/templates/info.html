@@ -2,5 +2,7 @@
 
 {% block content %}
 	<h1>Info</h1>
-	<p>Lorem Ipsum</p>
+	<p>This project is a Touhou character detector meant to find faces in anime artwork and identify the characters out of a handful of characters from the sixth Touhou game, The Embodiment of Scarlet Devil. </p>
+	<p>These characters are: <b>Reimu Hakurei, Marisa Kirisame, Remilia Scarlet, Flandre Scarlet, Sakuya Izayoi</b></p>
+	<p>The models responsible for classifying faces and identifying characters were created with ResNet50 via a Keras and TensorFlow implementation. Due to my lack of experience with neural networks, the project did not make use of RCNNs so a cascade classifier was used to locate potential faces within the images.</p>
 {% endblock %}

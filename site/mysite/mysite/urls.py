@@ -18,7 +18,7 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 
-from facerecognition.views import home_view, info_view, about_view, test_view
+from facerecognition.views import home_view, info_view, about_view
 
 urlpatterns = [
     path('', home_view, name='home'),

@@ -48,31 +48,6 @@ def about_view(request, *args, **kwargs):
 
     return render(request, "about.html", *args)
     
-def test_view(request, *args, **kwargs):
-    if request.method == 'POST' and request.FILES['myfile']:
-        myfile = request.FILES['myfile']
-        fs = FileSystemStorage()
-        filename = fs.save(myfile.name, myfile)
-        #uploadedFileUrl = fs.url(filename)
-        facePath = mediaPath + "\\" + filename
-        
-        #prediction = isFace(facePath)
-        outputPath = staticPath + "\\media\\" + filename
-        facesCount, charactersFound = getFaces(facePath, outputPath)
-        print(facesCount)
-
-        print(filename)
-        
-        messages.info(request, "Error Message")
-        
-        
-        return render(request, 'result.html', {
-            'result': facesCount,
-            'characters': charactersFound,
-            'facepath': filename
-        })
-    return render(request, "test.html", {})
-    
 def getPaths(file):
     fs = FileSystemStorage()
     filename = fs.save(file.name, file)

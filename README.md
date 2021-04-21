@@ -9,3 +9,10 @@ Dataset download:
 Faces: https://drive.google.com/file/d/1WGZrA0KcTVZIfRQHJGqftD1t73p8YxIQ/view?usp=sharing
 
 Touhou Character Faces: https://drive.google.com/file/d/1pDJRvqO0NSv8IiFy7lioYEGIHihAfDxh/view?usp=sharing
+
+
+Models download:
+
+Faces Model: https://drive.google.com/file/d/1AgtqGJtDCj6IgyFAztB4apr_58BXKFeV/view?usp=sharing
+
+Touhou Character Model: https://drive.google.com/file/d/1AgtqGJtDCj6IgyFAztB4apr_58BXKFeV/view?usp=sharing

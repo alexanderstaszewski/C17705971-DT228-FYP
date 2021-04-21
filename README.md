@@ -15,4 +15,4 @@ Models download (to use in the web app drop these files into \site\mysite\static
 
 Faces Model: https://drive.google.com/file/d/1AgtqGJtDCj6IgyFAztB4apr_58BXKFeV/view?usp=sharing
 
-Touhou Character Model: https://drive.google.com/file/d/1AgtqGJtDCj6IgyFAztB4apr_58BXKFeV/view?usp=sharing
+Touhou Character Model: https://drive.google.com/file/d/1i2etY6eDuDbv0Nl3N_fX-Tvr3IXI4YDz/view?usp=sharing
